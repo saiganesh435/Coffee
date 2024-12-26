@@ -1,0 +1,20 @@
+.coffee{
+    text-align: center;
+}
+.coffeelist{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    align-content: center;
+    justify-self: center;
+    gap: 5px;
+    
+}
+button{
+    background-color: rgb(4, 76, 221);
+    color:white;
+    padding-block: 5px;
+    padding-inline: 15px;
+    border-radius: 10px;
+    border: none;
+}
